@@ -1,9 +1,3 @@
-/*
-    涉及使用到的css选择器包括:
-    CSS伪元素选择器'::before'和'::after'
-    CSS伪类选择器':checked'和':disabled'
-    CSS组合器选择器'~'
-*/
 .check-label {
   margin: 10px;
   display: flex;
