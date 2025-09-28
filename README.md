@@ -1,6 +1,7 @@
 # Customize Countdown
 
 自定义电子屏倒计时插件，支持数字管效果和普通文本显示。
+![preview](https://github.com/Godziillaa/customize-countdown-timer/blob/main/preview-new.jpg)
 
 ## 安装
 
