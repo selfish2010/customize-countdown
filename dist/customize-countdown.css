@@ -1,0 +1,117 @@
+.count-wrap {
+  width: 100%;
+  height: 100%;
+  min-width: 80px;
+  min-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 10px;
+  position: relative;
+}
+.count-wrap .count-dot {
+  width: 10px;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.count-wrap .count-dot::before,
+.count-wrap .count-dot::after {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 4px;
+  background: #008000;
+}
+.count-wrap .dig-wrap {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.count-wrap .dig-wrap .dig-item {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.count-wrap .dig-wrap .dig-item::before,
+.count-wrap .dig-wrap .dig-item::after {
+  content: "";
+  display: block;
+  width: 96%;
+  height: 40%;
+  box-sizing: border-box;
+  border-left: #008000 solid 4px;
+  border-right: #008000 solid 4px;
+  border-radius: 4px;
+}
+.count-wrap .dig-wrap .dig-item::before {
+  border-top: #008000 solid 4px;
+  border-bottom: #008000 solid 2px;
+}
+.count-wrap .dig-wrap .dig-item::after {
+  border-top: #008000 solid 2px;
+  border-bottom: #008000 solid 4px;
+}
+.count-wrap .dig-wrap .dig-item.dig-1::before {
+  border-top-color: #e7f8e7;
+  border-bottom-color: #e7f8e7;
+  border-left-color: #e7f8e7;
+}
+.count-wrap .dig-wrap .dig-item.dig-1::after {
+  border-left-color: #e7f8e7;
+  border-bottom-color: #e7f8e7;
+  border-top-color: #e7f8e7;
+}
+.count-wrap .dig-wrap .dig-item.dig-2::before {
+  border-left-color: #e7f8e7;
+}
+.count-wrap .dig-wrap .dig-item.dig-2::after {
+  border-right-color: #e7f8e7;
+}
+.count-wrap .dig-wrap .dig-item.dig-3::before {
+  border-left-color: #e7f8e7;
+}
+.count-wrap .dig-wrap .dig-item.dig-3::after {
+  border-left-color: #e7f8e7;
+}
+.count-wrap .dig-wrap .dig-item.dig-4::before {
+  border-top-color: #e7f8e7;
+}
+.count-wrap .dig-wrap .dig-item.dig-4::after {
+  border-bottom-color: #e7f8e7;
+  border-left-color: #e7f8e7;
+}
+.count-wrap .dig-wrap .dig-item.dig-5::before {
+  border-right-color: #e7f8e7;
+}
+.count-wrap .dig-wrap .dig-item.dig-5::after {
+  border-left-color: #e7f8e7;
+}
+.count-wrap .dig-wrap .dig-item.dig-6::before {
+  border-right-color: #e7f8e7;
+}
+.count-wrap .dig-wrap .dig-item.dig-7::before {
+  border-left-color: #e7f8e7;
+  border-bottom-color: #e7f8e7;
+}
+.count-wrap .dig-wrap .dig-item.dig-7::after {
+  border-left-color: #e7f8e7;
+  border-bottom-color: #e7f8e7;
+  border-top-color: #e7f8e7;
+}
+.count-wrap .dig-wrap .dig-item.dig-9::after {
+  border-left-color: #e7f8e7;
+}
+.count-wrap .dig-wrap .dig-item.dig-0::before {
+  border-bottom-color: #e7f8e7;
+}
+.count-wrap .dig-wrap .dig-item.dig-0::after {
+  border-top-color: #e7f8e7;
+}
+

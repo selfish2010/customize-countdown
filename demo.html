@@ -13,55 +13,37 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta content="yes" name="apple-touch-fullscreen">
-    <title>demo</title>
-    <link rel="stylesheet" href="style.css">
+    <title>自定义倒计时插件演示</title>
+    <!-- 引入插件CSS -->
+    <link rel="stylesheet" href="dist/customize-countdown.min.css">
+    <!-- 引入插件JS -->
+    <script src="dist/customize-countdown.min.js"></script>
+</head>
 <body>
-    <label class="check-label">
-        <input type="checkbox" name="checkbox">
-        <i class="control-box check-box"></i>
-        <span class="title">checkbox [default]</span>
-    </label>
-    <label class="check-label">
-        <input type="checkbox" name="checkbox" checked>
-        <i class="control-box check-box"></i>
-        <span class="title">checkbox [checked]</span>
-    </label>
-    <label class="check-label">
-        <input type="checkbox" name="checkbox" disabled>
-        <i class="control-box check-box"></i>
-        <span class="title">checkbox [disabled]</span>
-    </label>
-    <label class="check-label">
-        <input type="checkbox" name="checkbox" disabled checked>
-        <i class="control-box check-box"></i>
-        <span class="title">checkbox [disabled] [checked]</span>
-    </label>
+    <h1>倒计时插件演示</h1>
+    
+    <h2>带数字管效果（手动控制）</h2>
+    <div id="wrap1" style="width: 200px; height: 50px;"></div>
+    <button id="btn1">开始</button>
+    <button id="btn2">暂停</button>
+    <button id="btn3">重启</button>
+    
     <hr>
-    <label class="check-label">
-        <input type="radio" name="radio" value="1">
-        <i class="control-box radio-box"></i>
-        <span class="title">radio [default]</span>
-    </label>
-    <label class="check-label">
-        <input type="radio" name="radio" checked value="2">
-        <i class="control-box radio-box"></i>
-        <span class="title">radio [checked]</span>
-    </label>
-    <label class="check-label">
-        <input type="radio" name="radio" disabled value="3">
-        <i class="control-box radio-box"></i>
-        <span class="title">radio [disabled]</span>
-    </label>
-    <label class="check-label">
-        <input type="radio" name="radio1" disabled checked value="4">
-        <i class="control-box radio-box"></i>
-        <span class="title">radio [disabled] [checked]</span>
-    </label>
-
-    <div class="form-group">
-        <input type="text" class="form-control" placeholder="点击输入内容">
-        <i class="bottom-line"></i>
-    </div>
+    
+    <h2>小型数字管效果（自动开始）</h2>
+    <div id="wrap2" style="width: 100px; height: 30px;"></div>
+    
+    <hr>
+    
+    <h2>大型数字管效果（自动开始）</h2>
+    <div id="wrap3" style="width: 500px; height: 80px;"></div>
+    
+    <hr>
+    
+    <h2>普通文本显示（带结束回调）</h2>
+    <div id="wrap4"></div>
+    
+    <script src="demo.js"></script>
 </body>
 
 </html>
